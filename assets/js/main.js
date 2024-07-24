@@ -1,9 +1,3 @@
-/*
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function ($) {
 
 	var $window = $(window),
@@ -119,7 +113,7 @@
 				.scrollex({
 					top: '30vh',
 					bottom: '30vh',
-					delay: 20,
+					delay: 15,
 					initialize: function () { $(this).addClass('inactive'); },
 					terminate: function () { $(this).removeClass('inactive'); },
 					enter: function () { $(this).removeClass('inactive'); },
@@ -130,7 +124,7 @@
 			$('.main.style1')
 				.scrollex({
 					mode: 'middle',
-					delay: 20,
+					delay: 15,
 					initialize: function () { $(this).addClass('inactive'); },
 					terminate: function () { $(this).removeClass('inactive'); },
 					enter: function () { $(this).removeClass('inactive'); },
@@ -140,7 +134,7 @@
 			$('.main.style2')
 				.scrollex({
 					mode: 'middle',
-					delay: 20,
+					delay: 15,
 					initialize: function () { $(this).addClass('inactive'); },
 					terminate: function () { $(this).removeClass('inactive'); },
 					enter: function () { $(this).removeClass('inactive'); },
@@ -151,7 +145,7 @@
 			$('#contact')
 				.scrollex({
 					top: '50%',
-					delay: 20,
+					delay: 15,
 					initialize: function () { $(this).addClass('inactive'); },
 					terminate: function () { $(this).removeClass('inactive'); },
 					enter: function () { $(this).removeClass('inactive'); },
@@ -209,7 +203,7 @@
 					$window.trigger('scroll');
 				}, 0);
 
-			}, 20);
+			}, 15);
 
 		})
 		.on('load', function () {
