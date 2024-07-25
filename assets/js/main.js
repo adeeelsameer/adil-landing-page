@@ -83,6 +83,9 @@
 			overlayOpacity: 0.5,
 			usePopupDefaultStyling: false,
 			usePopupCaption: true,
+			caption: function ($a) {
+				return $a.parent().attr('data-caption');
+			},
 			popupLoaderText: '',
 			windowMargin: 50,
 			usePopupNav: true
