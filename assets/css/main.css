@@ -2384,7 +2384,7 @@ body.is-touch .main {
 /* Intro */
 
 #intro {
-	background: url("images/overlay.png"), url("../../images/intro.jpg");
+	background: url("images/overlay.png"), url("../../images/ubc-intro-pic.jpeg");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, bottom center;
@@ -2406,7 +2406,7 @@ body.is-touch .main {
 /* One */
 
 #one {
-	background: url("images/overlay.png"), url("../../images/one.jpg");
+	background: url("images/overlay.png"), url("../../images/section-2-pic.webp");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
@@ -2415,7 +2415,7 @@ body.is-touch .main {
 /* Two */
 
 #two {
-	background: url("images/overlay.png"), url("../../images/two.jpg");
+	background: url("images/overlay.png"), url("../../images/section-3-pic.jpeg");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
@@ -2465,7 +2465,6 @@ body.is-touch .main {
 
 @media (max-width: 800px) {
 
-	/* Adjust the breakpoint as needed */
 	#intro .content .profile-pic {
 		display: none;
 	}
